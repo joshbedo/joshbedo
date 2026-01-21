@@ -86,8 +86,8 @@ I make complex systems boring again. *(In a good way.)*
 ## 🤙 Let’s Connect
 
 <p align="center">
-<insert gif about Homer waving>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXE0eDBoN2R0NGMxNWczajE1ZWwxNTduNWRiczZiN213YTVoaDZ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orif4ZNfvwRqXy1Ta/giphy.gif" />
 </p>
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/joshbedo)
-- 🐦 [X / Twitter](https://x.com/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/josh-bedo-2bb2ab34/)
+- 🐦 [X / Twitter](https://x.com/joshbedo)
