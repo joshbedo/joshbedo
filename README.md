@@ -10,6 +10,7 @@ Senior Full-Stack Engineer • Builder of Things • Professional Problem Untang
 📍 Erie, PA • 🧠 Building production software since age 15 • ☕ Runs on coffee & curiosity  
 </p>
 
+
 <p align="center">
 🟢  Looking for a new role - <a href="resume/josh-bedo-resume.pdf">My Resume</a>
 </p>
@@ -95,3 +96,5 @@ I make complex systems boring again. *(In a good way.)*
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/josh-bedo-2bb2ab34/)
 - 🐦 [X / Twitter](https://x.com/joshbedo)
+
+![](https://komarev.com/ghpvc/?username=joshbedo)
