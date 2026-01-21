@@ -11,6 +11,10 @@ Senior Full-Stack Engineer • Builder of Things • Professional Problem Untang
 </p>
 
 <p align="center">
+🟢  Looking for a new role - <a href="resume/josh-bedo-resume.pdf">My Resume</a>
+</p>
+
+<p align="center">
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNteXBldDA1a2d3NDYyeDJmMXZyNjNvdHpmcXR0Z3BybnZld3ZwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6Mbgydp5CqzjuUrS/giphy.gif" />
 </p>
 
