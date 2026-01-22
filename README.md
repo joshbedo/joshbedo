@@ -50,10 +50,9 @@ Key highlights:
 - Thoughtful gRPC API design  
 - Emphasis on observability, scalability, and long-term maintainability 
 
+👉 [View repository](https://github.com/joshbedo/go-grpc)
 
 <img src="./assets/projects/go-grpc/grpc-diagram.svg" width="640" alt="Go + gRPC architecture diagram" /> 
-
-👉 [View repository](https://github.com/joshbedo/go-grpc)
 
 ---
 
