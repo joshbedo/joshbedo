@@ -52,7 +52,7 @@ Key highlights:
 
 👉 [View repository](https://github.com/joshbedo/go-grpc)
 
-<img src="./assets/projects/go-grpc/grpc-diagram.svg" width="640" alt="Go + gRPC architecture diagram" /> 
+<img src="./assets/projects/go-grpc/grpc-diagram.svg" width="100%" alt="Go + gRPC architecture diagram" /> 
 
 ---
 
