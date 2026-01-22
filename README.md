@@ -11,13 +11,13 @@ Designing and scaling production systems -> from APIs and data pipelines to poli
 
 I’m a full-stack engineer with a product mindset and a strong bias toward **clarity, reliability, and maintainability**.
 
-I’ve spent my career shipping and evolving production systems from consumer-facing products to internal platforms and I enjoy the hard parts: migrations, legacy systems, performance bottlenecks, and ambiguous requirements.
+I’ve spent my career designing, shipping, and evolving production systems - especially ones that have outgrown their original architecture.
 
 I care a lot about:
 - clean APIs and thoughtful abstractions  
 - software that’s easy for *others* to work on  
 - balancing speed with long-term maintainability 
-- Building cool stuff people love to use 
+- building cool stuff people love to use 
 
 ---
 
