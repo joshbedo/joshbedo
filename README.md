@@ -47,10 +47,11 @@ An AI-powered journaling app that transforms self-reflection into meaningful ins
 
 ### **Go + gRPC Service Architecture**
 
-A modular backend architecture leveraging gRPC to facilitate robust communication and efficient data flow across distributed services.
+A modular backend architecture designed around gRPC to support efficient, strongly-typed communication between distributed services.
+
 
 Key highlights:
-- Modular service decomposition  
+- Clear service boundaries and modular decomposition  
 - gRPC + GraphQL API design  
 - Emphasis on observability, scalability, and long-term maintainability 
 
