@@ -27,6 +27,8 @@ I care a lot about:
 
 An AI-powered journaling app that transforms self-reflection into meaningful insights and actionable goals. Mirra helps you set and plan tasks intelligently by analyzing your journal entries, personal programs, and prior achievements.
 
+> **Coming soon:** [Try Mirra](https://mirra.app) · [GitHub](https://github.com/joshbedo/mirra)
+
 <div align="center">
   <a href="./assets/projects/mirra/demo.mp4">
     <img src="./assets/projects/mirra/demo.gif" alt="Mirra demo video (click for video)" width="260" />
@@ -38,6 +40,8 @@ An AI-powered journaling app that transforms self-reflection into meaningful ins
 <img src="./assets/projects/mirra/mirra-diagram.svg" alt="Mirra diagram" width="100%" />
 
 <!-- 👉 [Try Mirra](https://mirra.app) · [GitHub](https://github.com/joshbedo/mirra) -->
+
+
 
 ---
 
