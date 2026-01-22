@@ -47,7 +47,7 @@ A modular backend architecture leveraging gRPC to facilitate robust communicatio
 
 Key highlights:
 - Modular service decomposition  
-- Thoughtful gRPC API design  
+- gRPC + GraphQL API design  
 - Emphasis on observability, scalability, and long-term maintainability 
 
 👉 [View repository](https://github.com/joshbedo/go-grpc)
