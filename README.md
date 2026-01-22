@@ -1,7 +1,7 @@
 # Josh Bedo
 
 **Senior Full-Stack Engineer** · NYC -> Erie, PA  
-Building reliable, data-driven human-centered software -> from APIs to pixels.
+Designing and scaling production systems -> from APIs and data pipelines to polished UIs.
 
 🟢 **Open to opportunities** · [Resume](resume/josh-bedo-resume.pdf) · [LinkedIn](https://www.linkedin.com/in/josh-bedo-2bb2ab34/) · [X](https://x.com/joshbedo)
 
