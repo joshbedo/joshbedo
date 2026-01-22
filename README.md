@@ -21,33 +21,21 @@ I care a lot about:
 
 ---
 
-<div style="display:flex;align-items:center">
-<img src="./assets/potion.gif" width="40px" />
-Recent Projects
-</div>
-
-
-
+## 🛠️ Recent Projects
 
 ### **Mirra** — AI Journaling & Life Coach App
 
 An AI-powered journaling app that transforms self-reflection into meaningful insights and actionable goals. Mirra helps you set and plan tasks intelligently by analyzing your journal entries, personal programs, and prior achievements.
 
-<div style="display: flex; gap: 32px; justify-content: center; align-items: flex-start; margin-bottom: 2em;">
-<video src="./assets/projects/mirra/demo.mp4" autoplay controls width="220" 
-style="border-radius:12px;margin-bottom:1em;" poster="assets/projects/mirra/demo.
-gif">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <a href="./assets/projects/mirra/demo.mp4">
+    <img src="./assets/projects/mirra/demo.gif" alt="Mirra demo video (click for video)" width="220" />
+  </a>
+  &nbsp;&nbsp;
+  <img src="./assets/projects/mirra/demo2.gif" alt="Mirra screenshot 2" width="220" />
+</p>
 
-  <img src="./assets/projects/mirra/demo2.
-gif" alt="Mirra screenshot 2" width="220" style="border-radius:12px; box-shadow:0 2px 12px #0002;" />
-</div>
-
-
-
-
-<img src="./assets/projects/mirra/mirra-diagram.svg" width="640" />
+<img src="./assets/projects/mirra/mirra-diagram.svg" alt="Mirra diagram" width="640" />
 
 <!-- 👉 [Try Mirra](https://mirra.app) · [GitHub](https://github.com/joshbedo/mirra) -->
 
@@ -55,9 +43,7 @@ gif" alt="Mirra screenshot 2" width="220" style="border-radius:12px; box-shadow:
 
 ### **Go + gRPC Service Architecture**
 
-<p align="center">
-  <img src="./assets/projects/go-grpc/grpc-diagram.svg" width="640" alt="Go + gRPC architecture diagram" />
-</p>
+<img src="./assets/projects/go-grpc/grpc-diagram.svg" width="640" alt="Go + gRPC architecture diagram" />
 
 A modular backend architecture leveraging gRPC to facilitate robust communication and efficient data flow across distributed services.
 
