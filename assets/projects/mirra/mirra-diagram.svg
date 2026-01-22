@@ -1,0 +1,141 @@
+<svg width="1000" height="800" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="1000" height="800" fill="white"/>
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4A90E2"/>
+    </marker>
+
+    <marker id="api-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9B59B6"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#2C3E50">
+    Mirra AI Journal - App Architecture
+  </text>
+  <text x="500" y="55" font-size="14" text-anchor="middle" fill="#7F8C8D">
+    Expo | Sanity CMS | OpenAI | Clerk | Vercel
+  </text>
+
+  <!-- Client Layer -->
+  <rect x="350" y="90" width="300" height="90" rx="8" fill="#3498DB" filter="url(#shadow)"/>
+  <text x="500" y="120" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Client Application</text>
+  <text x="500" y="142" font-size="12" text-anchor="middle" fill="white">iOS / Android / Web (Expo)</text>
+  <text x="500" y="162" font-size="11" text-anchor="middle" fill="#ECF0F1">Tamagui, Expo Router, Clerk Auth, AI SDK (useChat)</text>
+  <rect x="370" y="168" width="260" height="18" rx="4" fill="#2980B9"/>
+  <text x="500" y="180" font-size="10" text-anchor="middle" fill="white">Tabs: Home, Journal, Programs, AI Chat, Profile</text>
+
+  <!-- Arrow from Client to API -->
+  <line x1="500" y1="180" x2="500" y2="230" stroke="#4A90E2" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="520" y="210" font-size="11" fill="#4A90E2" font-weight="bold">REST / Stream</text>
+
+  <!-- API Gateway (Vercel Serverless) -->
+  <rect x="300" y="230" width="400" height="110" rx="8" fill="#E74C3C" filter="url(#shadow)"/>
+  <text x="500" y="260" font-size="18" font-weight="bold" text-anchor="middle" fill="white">API Layer (Vercel Serverless)</text>
+  <text x="500" y="282" font-size="12" text-anchor="middle" fill="white">Expo API routes via generateAPIUrl</text>
+  <rect x="320" y="290" width="360" height="20" rx="4" fill="#C0392B"/>
+  <text x="500" y="304" font-size="10" text-anchor="middle" fill="white">/api/chat | /api/categorize | /api/create-goal | /api/prompts</text>
+  <rect x="320" y="316" width="175" height="18" rx="4" fill="#922B21"/>
+  <text x="407" y="328" font-size="9" text-anchor="middle" fill="white">chat: streamText, tools (goals, journal)</text>
+  <rect x="505" y="316" width="175" height="18" rx="4" fill="#922B21"/>
+  <text x="592" y="328" font-size="9" text-anchor="middle" fill="white">categorize, create-goal, prompts</text>
+
+  <!-- Arrows from API to services -->
+  <line x1="350" y1="340" x2="250" y2="400" stroke="#9B59B6" stroke-width="3" marker-end="url(#api-arrow)"/>
+  <text x="280" y="375" font-size="11" fill="#9B59B6" font-weight="bold">GROQ</text>
+
+  <line x1="500" y1="340" x2="500" y2="400" stroke="#9B59B6" stroke-width="3" marker-end="url(#api-arrow)"/>
+  <text x="520" y="375" font-size="11" fill="#9B59B6" font-weight="bold">AI SDK</text>
+
+  <line x1="650" y1="340" x2="750" y2="400" stroke="#9B59B6" stroke-width="3" marker-end="url(#api-arrow)"/>
+  <text x="680" y="375" font-size="11" fill="#9B59B6" font-weight="bold">REST</text>
+
+  <!-- Sanity CMS -->
+  <rect x="80" y="400" width="340" height="140" rx="8" fill="#F39C12" filter="url(#shadow)"/>
+  <text x="250" y="430" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Sanity CMS</text>
+  <text x="250" y="452" font-size="12" text-anchor="middle" fill="white">Content + User Data</text>
+  <text x="250" y="472" font-size="11" text-anchor="middle" fill="#FDEBD0">lib/sanity: journal, goals, categories, onboarding</text>
+  <rect x="100" y="482" width="300" height="18" rx="4" fill="#D68910"/>
+  <text x="250" y="494" font-size="10" text-anchor="middle" fill="white">conversations, dailyPrompts, userProgress, charts</text>
+  <rect x="100" y="508" width="300" height="24" rx="4" fill="#B7950B"/>
+  <text x="250" y="524" font-size="11" text-anchor="middle" fill="white">GROQ + @sanity/client</text>
+
+  <!-- OpenAI (via API) -->
+  <rect x="430" y="400" width="340" height="140" rx="8" fill="#16A085" filter="url(#shadow)"/>
+  <text x="600" y="430" font-size="16" font-weight="bold" text-anchor="middle" fill="white">OpenAI</text>
+  <text x="600" y="452" font-size="12" text-anchor="middle" fill="white">AI SDK (API layer)</text>
+  <text x="600" y="472" font-size="11" text-anchor="middle" fill="#A9DFBF">Chat, categorize, prompts, goal/task generation</text>
+  <rect x="450" y="482" width="300" height="18" rx="4" fill="#138D75"/>
+  <text x="600" y="494" font-size="10" text-anchor="middle" fill="white">streamText, generateText, generateObject</text>
+  <rect x="450" y="508" width="300" height="24" rx="4" fill="#0E6655"/>
+  <text x="600" y="524" font-size="11" text-anchor="middle" fill="white">@ai-sdk/openai, zod</text>
+
+  <!-- Clerk + Hosting -->
+  <rect x="780" y="400" width="180" height="140" rx="8" fill="#6366F1" filter="url(#shadow)"/>
+  <text x="870" y="430" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Clerk + Vercel</text>
+  <text x="870" y="452" font-size="12" text-anchor="middle" fill="white">Auth + Hosting</text>
+  <text x="870" y="472" font-size="11" text-anchor="middle" fill="#C7D2FE">Clerk: sign-in, user identity</text>
+  <rect x="800" y="482" width="140" height="18" rx="4" fill="#4F46E5"/>
+  <text x="870" y="494" font-size="10" text-anchor="middle" fill="white">Vercel: API + web</text>
+  <rect x="800" y="508" width="140" height="24" rx="4" fill="#3730A3"/>
+  <text x="870" y="524" font-size="11" text-anchor="middle" fill="white">EAS: iOS / Android</text>
+
+  <!-- Backend boundary (dashed) -->
+  <rect x="70" y="220" width="900" height="340" rx="12" fill="none" stroke="#34495E" stroke-width="2" stroke-dasharray="10,5"/>
+  <text x="90" y="245" font-size="13" font-weight="bold" fill="#34495E">Backend: Vercel Serverless + External Services</text>
+
+  <!-- Legend -->
+  <g transform="translate(50, 590)">
+    <text x="0" y="0" font-size="14" font-weight="bold" fill="#2C3E50">Legend:</text>
+
+    <line x1="0" y1="20" x2="40" y2="20" stroke="#4A90E2" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="50" y="25" font-size="11" fill="#2C3E50">Client to API</text>
+
+    <line x1="180" y1="20" x2="220" y2="20" stroke="#9B59B6" stroke-width="3" marker-end="url(#api-arrow)"/>
+    <text x="230" y="25" font-size="11" fill="#2C3E50">API to Services</text>
+
+    <rect x="350" y="13" width="40" height="14" rx="3" fill="#3498DB"/>
+    <text x="400" y="25" font-size="11" fill="#2C3E50">Client</text>
+
+    <rect x="470" y="13" width="40" height="14" rx="3" fill="#E74C3C"/>
+    <text x="520" y="25" font-size="11" fill="#2C3E50">API</text>
+
+    <rect x="590" y="13" width="40" height="14" rx="3" fill="#F39C12"/>
+    <text x="640" y="25" font-size="11" fill="#2C3E50">Sanity</text>
+
+    <rect x="710" y="13" width="40" height="14" rx="3" fill="#16A085"/>
+    <text x="760" y="25" font-size="11" fill="#2C3E50">OpenAI</text>
+  </g>
+
+  <!-- Tech Stack -->
+  <g transform="translate(50, 650)">
+    <text x="0" y="0" font-size="13" font-weight="bold" fill="#2C3E50">Tech Stack:</text>
+    <text x="0" y="18" font-size="10" fill="#555">• Expo (React Native) - iOS, Android, Web</text>
+    <text x="0" y="33" font-size="10" fill="#555">• Tamagui, Expo Router, React Navigation</text>
+    <text x="0" y="48" font-size="10" fill="#555">• Sanity CMS + GROQ, @sanity/client</text>
+    <text x="0" y="63" font-size="10" fill="#555">• Vercel (API + static web), EAS Build</text>
+    <text x="0" y="78" font-size="10" fill="#555">• Clerk (auth), OpenAI via AI SDK</text>
+  </g>
+
+  <!-- Flow note -->
+  <g transform="translate(520, 650)">
+    <text x="0" y="0" font-size="13" font-weight="bold" fill="#2C3E50">Flow:</text>
+    <text x="0" y="18" font-size="10" fill="#555">• App calls /api/chat (stream), /api/prompts</text>
+    <text x="0" y="33" font-size="10" fill="#555">• Categorize + create-goal from entry forms</text>
+    <text x="0" y="48" font-size="10" fill="#555">• API uses lib/sanity (GROQ) + OpenAI</text>
+  </g>
+</svg>
