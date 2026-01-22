@@ -80,6 +80,8 @@ I’m often brought in to help teams untangle complexity and move faster *withou
 
 ## 🛠 Tech Stack
 
+Tools I reach for most when building and scaling production systems:
+
 **Frontend**  
 React · Next.js · Design Systems · Storybook · SSR · Performance Optimization
 
