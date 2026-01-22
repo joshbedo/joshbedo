@@ -32,10 +32,10 @@ An AI-powered journaling app that transforms self-reflection into meaningful ins
     <img src="./assets/projects/mirra/demo.gif" alt="Mirra demo video (click for video)" width="260" />
   </a>
   &nbsp;&nbsp;
-  <img src="./assets/projects/mirra/demo2.gif" alt="Mirra screenshot 2" width="260" />
+  <img src="./assets/projects/mirra/demo2.gif" alt="Mirra screenshot 2" width="320" />
 </div>
 
-<img src="./assets/projects/mirra/mirra-diagram.svg" alt="Mirra diagram" width="640" />
+<img src="./assets/projects/mirra/mirra-diagram.svg" alt="Mirra diagram" width="320" />
 
 <!-- 👉 [Try Mirra](https://mirra.app) · [GitHub](https://github.com/joshbedo/mirra) -->
 
