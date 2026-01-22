@@ -64,7 +64,7 @@ Key highlights:
 
 I’ve built and maintained systems used by millions at:
 
-**The Daily Beast · Namely · Reserve / Resy · PINCHme · JPMorgan Chase · Netflix · Sony · Universal**
+**Udacity · Knapsack · Namely · The Daily Beast · Reserve / Resy · PINCHme · JPMorgan Chase · Netflix · Sony · Universal**
 
 My work has spanned:
 - greenfield builds and large-scale refactors  
