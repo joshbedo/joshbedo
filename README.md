@@ -63,7 +63,7 @@ Key highlights:
 
 ## 🧠 Experience
 
-I’ve built and maintained systems used by millions at:
+My work has supported products used by millions across consumer, enterprise, and internal platforms.
 
 **Udacity · Knapsack · Namely · The Daily Beast · Reserve / Resy · PINCHme · JPMorgan Chase · Netflix · Sony · Universal**
 
