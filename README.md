@@ -27,13 +27,13 @@ I care a lot about:
 
 An AI-powered journaling app that transforms self-reflection into meaningful insights and actionable goals. Mirra helps you set and plan tasks intelligently by analyzing your journal entries, personal programs, and prior achievements.
 
-<p align="center">
+<div>
   <a href="./assets/projects/mirra/demo.mp4">
-    <img src="./assets/projects/mirra/demo.gif" alt="Mirra demo video (click for video)" width="220" />
+    <img src="./assets/projects/mirra/demo.gif" alt="Mirra demo video (click for video)" width="260" />
   </a>
   &nbsp;&nbsp;
-  <img src="./assets/projects/mirra/demo2.gif" alt="Mirra screenshot 2" width="220" />
-</p>
+  <img src="./assets/projects/mirra/demo2.gif" alt="Mirra screenshot 2" width="260" />
+</div>
 
 <img src="./assets/projects/mirra/mirra-diagram.svg" alt="Mirra diagram" width="640" />
 
@@ -43,14 +43,15 @@ An AI-powered journaling app that transforms self-reflection into meaningful ins
 
 ### **Go + gRPC Service Architecture**
 
-<img src="./assets/projects/go-grpc/grpc-diagram.svg" width="640" alt="Go + gRPC architecture diagram" />
-
 A modular backend architecture leveraging gRPC to facilitate robust communication and efficient data flow across distributed services.
 
 Key highlights:
 - Modular service decomposition  
 - Thoughtful gRPC API design  
-- Emphasis on observability, scalability, and long-term maintainability  
+- Emphasis on observability, scalability, and long-term maintainability 
+
+
+<img src="./assets/projects/go-grpc/grpc-diagram.svg" width="640" alt="Go + gRPC architecture diagram" /> 
 
 👉 [View repository](https://github.com/joshbedo/go-grpc)
 
